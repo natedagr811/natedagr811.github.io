@@ -1,55 +1,59 @@
 body { 
-    margin-top: 10%; 
+	margin-top: 10%; 
     padding-left: 10%; 
     overflow: hidden;
 	background-image: url("media/clogherhead.png");
 	background-size: cover;
+	background-repeat: no-repeat;
 } 
 
 h1 {
-  font-family: "Cabin", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700; 
-  font-size: 64px;
-  line-height: .5em;
-  font-style: italic;
-  font-variation-settings:
-    "wdth" 87.5;
+	font-family: "Cabin", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700; 
+	font-size: 64px;
+	line-height: .5em;
+	font-style: italic;
+	font-variation-settings:
+    	"wdth" 87.5;
 }
 
 p {
-  font-family: "Cabin", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-  font-size: 20px;
-  line-height: 0.75em;
-  font-variation-settings:
-    "wdth" 100;
+	font-family: "Cabin", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 0.75em;
+	font-variation-settings:
+		"wdth" 100;
 }
 
 p2 {
-  font-family: "Cabin", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-size: 14px;
-  line-height: 1em;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+	font-family: "Cabin", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 1em;
+	font-style: italic;
+	font-variation-settings:
+		"wdth" 100;
 }
 
 a:link {
-  text-decoration: none;
-  color: black
+	text-decoration: none;
+	color: black
 }
 
 a:visited {
-  text-decoration: none;
+	text-decoration: none;
+	color:darkslategray
+	
 }
 
 a:hover {
-  text-decoration: none;
+	text-decoration: none;
+	color: whitesmoke
 }
 
 a:active {
