@@ -1,7 +1,7 @@
 body { 
 	margin-top: 10%; 
-    padding-left: 10%; 
-    overflow: hidden;
+	padding-left: 10%; 
+	overflow: hidden;
 	background-image: url("media/clogherhead.png");
 	background-size: cover;
 	background-attachment: fixed;
