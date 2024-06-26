@@ -4,6 +4,7 @@ body {
     overflow: hidden;
 	background-image: url("media/clogherhead.png");
 	background-size: cover;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 } 
 
