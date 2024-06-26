@@ -1,16 +1,57 @@
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
+body { 
+    margin-top: 10%; 
+    padding-left: 10%; 
+    overflow: hidden;
+	background-image: url("media/clogherhead.png");
+	background-size: cover;
+} 
 
 h1 {
-  font-family: "Jost", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+  font-weight: 700; 
+  font-size: 64px;
+  line-height: .5em;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 87.5;
 }
 
 p {
-  font-family: "Jost", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+  font-size: 20px;
+  line-height: 0.75em;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+p2 {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 1em;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+a:link {
+  text-decoration: none;
+  color: black
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
